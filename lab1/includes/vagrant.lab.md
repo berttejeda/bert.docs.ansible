@@ -2,49 +2,32 @@
 
 ## Lab Prep
 
-To follow along, you'll need to have installed **vagrant**, **virtualbox**, and **git** at the very least.
+To follow along, you'll need the following:
 
-You can do this manually:
-
-- Download and install vagrant:
-	1. [vagrant downloads](https://www.vagrantup.com/downloads.html)
-- Download and install virtualbox
-	1. [virtualbox](https://www.virtualbox.org/)
-- Download and install git
-	1. [git](https://git-scm.com/download/win)
-
-Once you've installed the three, you should be able follow along using your **Powershell** terminal
-
---OR-- you can go with the automated approach:
-
-1. Install **cmder** using the **Install Lab Requirements** button at the <a href="#" class="flash" data-selector="#requirements" data-duration="300">top</a>
-1. <a href="#" class="shell" data-shell="%ChocolateyToolsLocation%\\cmder\\cmder.exe">Start Lab1 Bash Shell Environment</a>
-1.  Obtain a copy of the [vagrant-environments](!git_url) repository.
-	- You can grab a copy using git: 
-		- `git clone !git_url`
-		or
+1. [vagrant downloads](https://www.vagrantup.com/downloads.html)
+1. [virtualbox](https://www.virtualbox.org/)
+1. [git](https://git-scm.com/download/win)
+1. [vagrant-venv](!git_url)
+	-  You can also obtain a copy of the [vagrant-venv](!git_url) repository via:
+		- `git clone !git_url`<br />or
 		- by navigating to the [repository](!git_url) in your browser and downloading a zip archive of the files
 
-Once you've installed and downloaded the requirements, we can proceed with the following exercises in preparing your local lab environment:
+Some notes:
 
-- Initializing virtual machines using vagrant
-- Provisioning your machines using ansible
-- Writing ansible playbooks using Sublime 3 Text Editor<br />
-  You can of course use Notepad++ or whatever other *inferior* text editor of your choice
-- Testing your playbooks using a virtual machine
+- The **Install Lab Requirements** button at the <a href="#" class="flash" data-selector="#requirements" data-duration="300">top</a> is experimental and may not work, but you can give it a try.
+
+Once you've met all requirements, we can proceed in preparing your local lab environment.
+
+Moving along ☞
 
 ## Initializing virtual machines using vagrant
 
-As Follows ☞
-
-1. Again, you'll need the **vagrant-environments** source files to follow along, so make sure you've obtained the files via `git clone` or through your web browser
-1. From your terminal, navigate to the **vagrant-environments** folder
-	- `cd vagrant-environments`
+1. Again, you'll need the **vagrant-venv** source files to follow along, so make sure you've obtained the files.
+1. From your terminal, navigate to the location where you downloaded the project files, and `cd` to the directory:
+	- `cd vagrant-venv`
 1. List the available environments
 	- `vagrant environment list`<br />
 	You should see only one: *environments/contoso*
-1. Activate the **contoso** environment
-	- `vagrant environment activate contoso`
 1. Create the ansible **inventory** file for the **contoso** environment
 	- `vagrant inventory create contoso`
 1. Review the status of the **contoso** virtual machines
@@ -57,7 +40,6 @@ As Follows ☞
 	- Boots up the **machine** using the **box** image
 	- Checks if the initial **provisioning** tasks have been run against the **machine**,<br /> and if not, will run the initial provisionment task(s)
 1. Again, vagrant is simply 'talking' to the underlying hypervisor and cycling through several phases of the machine boot up process, as illustrated:<br /><br />![Vagrant 'talking' to Virtualbox](!ifdef(assets_folder)(!assets_folder)(!cwd/../assets)/images/vagrant_up_diagram.png)
-
 
 ## Provisioning your machines using ansible
 
