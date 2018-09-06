@@ -2,7 +2,20 @@
 
 ## Lab Prep
 
-To follow along, you'll need to:
+To follow along, you'll need to have installed **vagrant**, **virtualbox**, and **git** at the very least.
+
+You can do this manually:
+
+- Download and install vagrant:
+	1. [vagrant downloads](https://www.vagrantup.com/downloads.html)
+- Download and install virtualbox
+	1. [virtualbox](https://www.virtualbox.org/)
+- Download and install git
+	1. [git](https://git-scm.com/download/win)
+
+Once you've installed the three, you should be able follow along using your **Powershell** terminal
+
+--OR-- you can go with the automated approach:
 
 1. Install **cmder** using the **Install Lab Requirements** button at the <a href="#" class="flash" data-selector="#requirements" data-duration="300">top</a>
 1. <a href="#" class="shell" data-shell="%ChocolateyToolsLocation%\\cmder\\cmder.exe">Start Lab1 Bash Shell Environment</a>
@@ -25,7 +38,7 @@ Once you've installed and downloaded the requirements, we can proceed with the f
 As Follows ☞
 
 1. Again, you'll need the **vagrant-environments** source files to follow along, so make sure you've obtained the files via `git clone` or through your web browser
-1. From your **cmder** terminal, navigate to the **vagrant-environments** folder
+1. From your terminal, navigate to the **vagrant-environments** folder
 	- `cd vagrant-environments`
 1. List the available environments
 	- `vagrant environment list`<br />
@@ -54,11 +67,11 @@ Let's modify the provisionment steps for this machine.
 
 As Follows ☞
 
-1. From your **cmder** terminal, open the current directory as a *Project Tree* in Sublime Text 3:
+1. From your terminal, open the current directory as a *Project Tree* in Sublime Text 3:
 	- `subl .`<br />
 Note: I'm assuming you've chosen to install **Sublime Text 3**, which includes a step that adds a custom function `subl` to your *~/bash.profile*.<br />
 Again, you can install Sublime Text 3 via the **Install Lab Requirements** button at the <a href="#" class="flash" data-selector="#requirements" data-duration="300">top</a><br />
-You can also verify that the `subl` function is available to you by entering `type subl` in your **cmder** terminal
+You can also verify that the `subl` function is available to you by entering `type subl` in your terminal
 1. Review the **!vagrant_machine** machine definition file: *environments/contoso/machines/!vagrant_group/!vagrant_machine.yaml*
 ![!vagrant_machine machine definition file](!ifdef(assets_folder)(!assets_folder)(!cwd/../assets)/images/subl.gif)
 1. As per the <span class="medium_red">provisioners</span> key, we have **3** provisionment tasks:
