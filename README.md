@@ -4,13 +4,22 @@ This repository contains a set of interactive documents for learning ansible.
 
 These are neatly packaged, self-contained HTML files bearing the .hta file extension, which elevats the documents to full-blown applications on the Windows platform.
 
-As such, these documents are meant to be executed from a Windows host, but you can simply rename the file to .html for viewing content on non-Windows operating systems.
+As such, these documents are meant to be executed from a Windows host, but you can simply rename the document(s) to .html for viewing content on non-Windows operating systems.
 
-Added Bonus: With the files renamed as .html you can drop these on a web server and leverage the same level of access granted to the .hta's so long as you are accessing them via Internet Explorer (with ActiveX enabled).
+Of course, you can use whatever file extension of your choosing when rebuilding the document(s).
+
+Added Bonus: With the files renamed/built as .html you can drop these on a web server and leverage the same level of access granted to the .hta's so long as you are accessing them via Internet Explorer (with ActiveX enabled).
 
 # Lab 1
 
 In Lab 1, you will make use of [Vagrant](https://www.vagrantup.com/) for setting up a localized lab for a hands-on ansible learning experience.
+
+Here's what's covered:
+
+- What is ansible?
+- How to install Ansible on Windows/Linux/MacOS
+- What is Vagrant?
+- How to prepare a test environment for Ansible using Vagrant
 
 [ansible-lab1.hta](lab1/ansible-lab1.hta)
 
