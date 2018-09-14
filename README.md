@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Ansible Labs](#ansible-labs)
+  - [Lab 1](#lab-1)
+- [Modifying/Rebuilding the Document(s)](#modifyingrebuilding-the-documents)
+  - [Requirements](#requirements)
+  - [HowTo](#howto)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Ansible Labs
 
 This repository contains a set of interactive documents for learning ansible. 
@@ -10,7 +22,7 @@ Of course, you can use whatever file extension of your choosing when rebuilding 
 
 Added Bonus: With the files renamed/built as .html you can drop these on a web server and leverage the same level of access granted to the .hta's so long as you are accessing them via Internet Explorer (with ActiveX enabled).
 
-# Lab 1
+## Lab 1
 
 In Lab 1, you will make use of [Vagrant](https://www.vagrantup.com/) for setting up a localized lab for a hands-on ansible learning experience.
 
