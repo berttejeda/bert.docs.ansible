@@ -4,7 +4,7 @@
 
 To follow along, you'll need the following:
 
-1. [vagrant downloads](https://www.vagrantup.com/downloads.html)
+1. [vagrant](https://www.vagrantup.com/downloads.html)
 1. [virtualbox](https://www.virtualbox.org/)
 1. [git](https://git-scm.com/download/win)
 1. [vagrant-venv](!git_url)
