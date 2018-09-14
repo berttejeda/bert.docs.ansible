@@ -14,7 +14,7 @@
 
 This repository contains a set of interactive documents for learning ansible. 
 
-These are neatly packaged, self-contained HTML files bearing the .hta file extension, which elevats the documents to full-blown applications on the Windows platform.
+These are neatly packaged, self-contained HTML files bearing the .hta file extension, which elevates the documents to full-blown applications on the Windows platform.
 
 As such, these documents are meant to be executed from a Windows host, but you can simply rename the document(s) to .html for viewing content on non-Windows operating systems.
 
