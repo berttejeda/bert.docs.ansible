@@ -1,12 +1,24 @@
-# Ansible Lab1
+# Ansible Labs
 
-This is an ansible learning document, neatly packaged in a self-contained .hta file.
+This repository contains a set of interactive documents for learning ansible. 
 
-It is meant to be executed from a Windows host, but you can simply rename the file to .html for viewing.
+These are neatly packaged, self-contained HTML files bearing the .hta file extension, which elevats the documents to full-blown applications on the Windows platform.
+
+As such, these documents are meant to be executed from a Windows host, but you can simply rename the file to .html for viewing content on non-Windows operating systems.
+
+Added Bonus: With the files renamed as .html you can drop these on a web server and leverage the same level of access granted to the .hta's so long as you are accessing them via Internet Explorer (with ActiveX enabled).
+
+# Lab 1
+
+In Lab 1, you will make use of [Vagrant](https://www.vagrantup.com/) for setting up a localized lab for a hands-on ansible learning experience.
 
 [ansible-lab1.hta](lab1/ansible-lab1.hta)
 
-# Requirements
+# Modifying/Rebuilding the Document(s)
+
+## Requirements
+
+If you want to make changes to the content and rebuild the documents, you'll need to install some requirements:
 
 * optional:
     - **python 2.7+** (only if you plan on installing pandoc python module, i.e. `pip install pandoc`)
@@ -14,10 +26,11 @@ It is meant to be executed from a Windows host, but you can simply rename the fi
 * mandatory:
     - [pandoc](https://pandoc.org/installing.html)
     - [pp](https://github.com/CDSoft/pp) (Pre-compiled binaries available for Windows and Linux)
+    - A copy of the [bert.docs](https://github.com/berttejeda/bert.docs.git) repo
 
-# Building The HTA
+## HowTo
 
-To build the HTA, you'll need to grab a copy of [bert.docs](https://github.com/berttejeda/bert.docs.git), as this project utilizes objects from that codebase.
+Again, to build the document, you'll need to grab a copy of [bert.docs](https://github.com/berttejeda/bert.docs.git), as this project utilizes objects from that codebase.
 
 The [build.sh](build.sh) pandoc/pp wrapper script outputs a single .hta file as per specification.
 
