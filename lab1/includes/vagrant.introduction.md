@@ -52,18 +52,23 @@ This project makes use of the following provisioners:
 
 ### Installation
 
-This lab includes built-in *powershell* commands for bootstrapping your system.
+To install vagrant:
 
-To install vagrant, simply click the <span style="font-size:1.5em"><a href="#" class="flash" data-selector="#requirements" data-duration="300">Install Lab Requirements</a></span> button located in the <a href="#" class="flash" data-selector="#requirements" data-duration="300">top</a> navigation bar of this document.
+1. Navigate to the vagrant downloads site: [vagrant downloads](https://www.vagrantup.com/downloads.html)
+1. Once downloaded, launch the installer and follow the prompts
+  - The installer will make the `vagrant` command available through your *PATH* variable
+  - If upon installation, the `vagrant` command is not found, you may need to restart whatever terminal you have open, e.g. cmd, bash, iterm2, cygwin, etc
 
-You'll be presented with an installation menu from which you can choose to install vagrant.
+Some notes:
 
-I **highly** recommend you install the following packages along with **vagrant**:
+- The **Install Lab Requirements** button at the <a href="#" class="flash" data-selector="#requirements" data-duration="300">top</a> is experimental and may not work, but you can give it a try (if you're on Windows).<br />
+  You'll be presented with an installation menu from which you can choose to install vagrant.
 
-- [cmder](http://cmder.net/) 
-  The commandline experience presented through it more closely matches a posix-compliant operating environment
-- [Sublime Text 3](https://www.sublimetext.com/3)
-  Forget Notepad++, just throw it away. This one is king!
+- I **highly** recommend you install the following applications along with **vagrant**:
+  - [cmder](http://cmder.net/)<br />
+    The commandline experience presented through it more closely matches a posix-compliant operating environment
+  - [Sublime Text 3](https://www.sublimetext.com/3)<br />
+    Forget Notepad++, just throw it away. This one is king!
 
 Once you've installed the tools, proceed to the next section: <a href="#" id="vagrant_lab" class="section_link">Preparing Your Lab</a>
 
