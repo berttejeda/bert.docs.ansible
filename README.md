@@ -40,7 +40,7 @@ For your convenience, I've generated Lab 1 as both a .hta and a .html.
 Simply right click either of the below links, choose _Save link as_ and launch:
 
 - [ansible-lab1.hta](lab1/ansible-lab1.hta)
-- [ansible-lab1.hta](lab1/ansible-lab1.html)
+- [ansible-lab1.html](lab1/ansible-lab1.html)
 
 # Modifying/Rebuilding the Document(s)
 
