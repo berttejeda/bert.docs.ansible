@@ -33,6 +33,10 @@ Here's what's covered:
 - What is Vagrant?
 - How to prepare a test environment for Ansible using Vagrant
 
+### Lab 1 - Download
+
+Right click the below link and choose _Save link as_:
+
 [ansible-lab1.hta](lab1/ansible-lab1.hta)
 
 # Modifying/Rebuilding the Document(s)
