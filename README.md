@@ -35,9 +35,12 @@ Here's what's covered:
 
 ### Lab 1 - Download
 
-Right click the below link and choose _Save link as_:
+For your convenience, I've generated Lab 1 as both a .hta and a .html.
 
-[ansible-lab1.hta](lab1/ansible-lab1.hta)
+Simply right click either of the below links, choose _Save link as_ and launch:
+
+- [ansible-lab1.hta](lab1/ansible-lab1.hta)
+- [ansible-lab1.hta](lab1/ansible-lab1.html)
 
 # Modifying/Rebuilding the Document(s)
 
