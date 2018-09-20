@@ -12,8 +12,8 @@ sections:
   id: vagrant_introduction
 - name: Preparing Your Lab
   id: vagrant_lab
-date: 08.27.2018
-version: 18.08.27.01
+date: !date
+version: !VERSION_STRING
 <!-- header-includes: 
 - <script src="assets/jquery/hello.js"></script> -->
 ---
