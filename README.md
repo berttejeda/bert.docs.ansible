@@ -53,7 +53,7 @@ If you want to make changes to the content and rebuild the documents, you'll nee
 
 Again, to build the document, you'll need to grab a copy of [bert.docs](https://github.com/berttejeda/bert.docs.git), as this project utilizes objects from that codebase.
 
-The [build.sh](build.sh)/[build.bat](build.bat) pandoc/pp wrapper scripts output a single .hta file as per specification.
+The [build.sh](https://github.com/berttejeda/bert.docs/blob/master/build.sh)/[build.bat](https://github.com/berttejeda/bert.docs/blob/master/build.bat) pandoc/pp wrapper scripts output a single .hta file as per specification.
 
 Supposing you downloaded/cloned *bert.docs* to a folder named *git* under your *HOME* folder (e.g. C:\Users\MyUserName), invoking the build script can be done as follows:
 
